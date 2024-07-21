@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
-//razmer 
+//privedenie tipov
 int main(){
-	cout<<"Size char= "<<sizeof(char)<<" byte"<<endl;
-	cout<<"Size int= " <<sizeof(int )<<" byte"<<endl;
-	cout<<"Size float= "<<sizeof(float)<<" byte"<<endl;
-	cout<<"Size double= "<<sizeof(double)<<" byte"<<endl;
-	cout<<"Size long int= "<<sizeof(long int)<<" byte"<<endl;
-	cout<<"Size long long int= "<<sizeof(long long int )<<" byte"<<endl;
+	char c = '0';
+	cout<< "Enter Simvol :";
+	cin >> c;
+	cout<<"ASCII ="<<int(c)<<endl;
 	
 	system("pause>0");
 	return 0;
