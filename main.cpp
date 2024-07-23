@@ -1,22 +1,17 @@
 #include <iostream>
 using namespace std;
-//использование инкремета идекремента 
+//piramida iz ***
 int main(){
-	int a =0,b=0;
-	int i=4,j=4;
-	cout <<"Znachenie peremennyh v samom nachale \n";
-	cout <<"i= "<<i<<endl;
-	cout <<"j= "<<j<<endl;
+	int rows =0;
+	cout<<"Enter quantity rows ;\n";
+	cin>>rows;
+	for(int i=1;i<=rows;++i){
+		for(int j=1;j<=i;++j){
+			cout<<"* ";
+		}
+		cout<<"\n";
+	}
 	
-	cout<< "znachenie posle n =i++ \n";
-	a=i++;
-	cout<<"a= "<<a<<"\n";
-	cout<<"i= "<<i<<"\n";
-	
-	cout<< "znachenie posle m = ++j \n";
-	b=++j;
-	cout<<"b= "<<b<<"\n";
-	cout<<"j= "<<j<<"\n";
 	system("pause>0");
 	return 0;
 }
